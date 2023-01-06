@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+.primary-button{
+    background-color: #FF5959;
+    height: 64px;
+    padding: 16px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 40px;
+}
+/* Head Image */
+.banner-image{
+    width: 100%;
+}
+.header{
+    background-image: url(../images/donation5.jpg);
+    width: 100%;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head-image{
+    text-align: center;
+    position: relative;
+    padding: 174px 307px;
+}
+.head-tittle{
+    color: #FFFFFF;
+    text-align: center; 
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+.head-description{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+/* Donate  */
+.donate{
+    margin-top: 130px;
+    text-align: center;
+}
+.donate-tittle{
+    color: #121212;
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donate-description{
+    color: #707070;
+    font-size: 18px;
+}
+.amount ul{
+    padding-top: 50px;
+    display: flex;
+    margin: 0 200px;
+    gap: 45px;
+}
+li{
+    list-style: none;
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 43px 25px 44px 24px;
+    background-color: #FAFAFA;
+}
+.select{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.input{
+    text-align: center;
+    margin-top: 60px;
+    border: 0;
+    color: #B3B3B3;
+    font-size: 18px;
+}
+.border-line{
+    margin-top: 10px;
+    margin-left:340px;
+    margin-right: 340px;
+}
+.our-plane{
+    margin-top: 30px;
+    text-align: center;
+}
+.plane-tittle{
+    font-size: 45px;
+    font-weight: 700;
+}
+.plane-description{
+    font-size: 18px;
+    color: #707070;
+}
+/* donate Plane */
+.donate-plane{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    gap: 24px;
+    border-radius: 5px;
+    padding-left: 57px;
+    padding-right: 57px;
+    margin: 0 150px;
+}
+.icon{
+    padding-top: 83px;
+    padding-left: 23px;
+}
+.food{
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+.shelter{
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+.education{
+    background-color: #FFF4D6;
+    border-radius: 5px;
+}
+.food-tittle{
+ margin-top: 31px;
+ font-size: 24px;
+ font-weight: 600;
+ color: #121212;
+ margin-bottom: 16px;
+ padding-left: 23px;
+}
+.food-description{
+    font-size: 16px;
+    color: #707070;
+    margin-bottom: 54px;
+    padding-left: 23px;
+}
+
+/* Contribute */
+.contribute{
+    margin: 0 200px;
+}
+.contribute-first{
+    display: flex;
+}
+.contribute-first-tittle{
+    margin-top: 185px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.contribute-first-description{
+    margin-top: 20px;
+    color: #707070;
+    font-size: 18px;
+}
+.image-first{
+    width: 456px;
+    margin-top: 130px;
+    padding-left: 83px;
+}
+
+
+.contribute-secound{
+    display: flex;
+}
+.contribute-secound-tittle{
+    margin-top: 185px;
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 85px;
+    
+}
+.contribute-secound-description{
+    padding-left: 85px;
+    margin-top: 20px;
+    color: #707070;
+    font-size: 18px;
+}
+.image-secound{
+    width: 456px;
+    margin-top: 151px;
+}
+
+/* Updates */
+.updates-tittle{
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+.updates-description{
+    text-align: center;
+    color: #707070;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.email{
+    background-color: #FFF4D6;
+    margin-bottom: 130px;
+    text-align: center;
+    padding: 76px 188px 76px 188px;
+}
+.email-input{
+    color: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    height: 48px;
+    width: 275px;
+}
+.subscribe-input{
+    background-color: #FF5959;
+    height: 48px;
+    width: 157px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+/* Footer */
+footer{
+    background-color: #0B0D17;
+    align-items: center;
+    margin-top: 150px;
+    height: 250px;
+}
+.footer-tittle{
+    color: #FF5959;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-description{
+    color: #D9DBE1;
+    text-align: center;
+}
